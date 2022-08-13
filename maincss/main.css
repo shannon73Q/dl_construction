@@ -1,0 +1,402 @@
+/* 비주얼 영역 */
+
+.main {
+  width: 2000px;
+  position: relative;
+  left: 50%;
+  top: 0;
+  margin-left: -1000px;
+  overflow: hidden;
+}
+
+.main .slogan {
+  position: absolute;
+  left: 445px;
+  top: 45%;
+  color: #fff;
+}
+.main .slogan span {
+  font-weight: 700;
+  font-size: 3em;
+}
+.main .slogan p {
+  font-weight: 400;
+  font-size: 2em;
+}
+
+.view {
+  width: 130px;
+  padding: 10px 0;
+  border-radius: 20px;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.3);
+  text-align: center;
+  margin-top: 30px;
+  box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s;
+}
+.view:hover {
+  background: #fff;
+  color: #010066;
+}
+
+/* 본문컨텐츠 영역 */
+
+#content {
+  width: 1200px;
+  margin: 0 auto;
+}
+/* 경영이념 영역 */
+.management h3 {
+  font-size: 3em;
+  text-align: center;
+  margin-top: 90px;
+}
+
+.management li {
+  box-shadow: 2px 2px 15px 1px rgb(0 0 0 / 30%);
+}
+.management span {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #fff;
+}
+.management p {
+  font-size: 1em;
+  color: #fff;
+}
+.management .view {
+  margin-top: 40px;
+}
+.management1 {
+  overflow: hidden;
+  width: 900px;
+  height: 300px;
+  margin: 90px 100px 0 200px;
+  border-radius: 100px 0 / 120px;
+  position: relative;
+}
+.management1 img {
+  transition: all 0.5s ease-in-out;
+}
+.management1:hover > img {
+  transform: scale(1.1);
+}
+.management1 div {
+  position: absolute;
+  right: 50px;
+  top: 100px;
+  text-align: right;
+}
+.management1 a {
+  position: absolute;
+  right: 50px;
+  top: 150px;
+}
+.management2 {
+  overflow: hidden;
+  width: 900px;
+  height: 300px;
+  margin: 20px 200px 100px 100px;
+  border-radius: 0 100px / 120px;
+  position: relative;
+}
+.management2 div {
+  position: absolute;
+  left: 50px;
+  top: 100px;
+  text-align: left;
+}
+.management2 img {
+  transition: all 0.5s ease-in-out;
+}
+
+.management2:hover > img {
+  transform: scale(1.1);
+}
+.management2 a {
+  position: absolute;
+  left: 50px;
+  top: 150px;
+}
+/* 사업분야 영역 */
+.business {
+  position: relative;
+  margin: 0 0 100px 0;
+}
+
+.businessBox {
+  width: 100%;
+  position: relative;
+}
+.business h3 {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 120px;
+}
+.business ul {
+  height: 530px;
+  margin: 0 auto;
+}
+.business li {
+  width: 400px;
+  height: 100%;
+  float: left;
+  color: #fff;
+  overflow: hidden;
+}
+
+.businessBox h4 {
+  font-size: 2em;
+  font-weight: 500;
+  position: absolute;
+  left: 15%;
+  top: 40%;
+  transition: all 0.5s;
+}
+.business li:hover h4 {
+  color: orange;
+  font-size: 2.1em;
+}
+.businessBox .view {
+  position: absolute;
+  left: 0;
+}
+
+.businessPark,
+.businessPub,
+.businessHouse {
+  transition: all 0.3s ease-out;
+  width: 33%;
+  position: relative;
+  text-align: center;
+}
+
+.business li img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease-out;
+}
+.business li:hover img {
+  transform: scale(1.1);
+  filter: brightness(40%);
+}
+
+.business_list div {
+  position: absolute;
+  left: 15%;
+  top: 55%;
+  padding-right: 25px;
+  text-align: left;
+}
+.businessBox li div {
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.businessBox li:hover div {
+  opacity: 1;
+}
+/* 사회공헌 영역 */
+.social {
+  margin-top: 80px;
+  position: relative;
+}
+.social h3 {
+  font-size: 3em;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.social .socialTextBox {
+  width: 430px;
+  height: 430px;
+  background: rgb(8, 30, 117);
+  opacity: 0.8;
+  color: #fff;
+  text-align: center;
+  font-size: 1em;
+  margin-bottom: 135px;
+  position: absolute;
+  left: 200px;
+  top: 400px;
+  box-shadow: 2px 2px 15px 1px rgb(0 0 0 / 30%);
+  transition: all 0.3s ease-in-out;
+}
+.social .socialTextBox:hover {
+  width: 430px;
+  height: 430px;
+  background: rgb(12, 39, 146);
+  opacity: 1;
+  color: #fff;
+  text-align: center;
+  font-size: 1em;
+  margin-bottom: 135px;
+  position: absolute;
+  left: 200px;
+  top: 400px;
+  box-shadow: 2px 2px 15px 1px rgb(0 0 0 / 30%);
+}
+
+.socialCon1 {
+  width: 850px;
+  height: 500px;
+  margin: 80px 30px 255px 317px;
+}
+
+.social dt {
+  font-size: 1.8em;
+  margin: 50px 0 30px;
+  font-weight: 700;
+}
+.social dd {
+  font-size: 1em;
+  text-align: justify;
+  margin: 0 50px 30px 50px;
+  font-weight: 400;
+}
+.social dd a {
+  color: #fff;
+  margin-top: 50px;
+}
+.social .socialTextBox > a {
+  display: block;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  opacity: 0.4;
+  color: #666;
+  font-size: 2.3em;
+  right: 0;
+  bottom: 0;
+}
+.social .socialTextBox > a:nth-of-type(1) {
+  right: 60px;
+  border-right: 1px solid rgb(129, 146, 216);
+}
+/* 뉴스룸 영역 */
+.news {
+  background: rgb(245, 245, 245);
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+.news > a {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+}
+
+.news .newsroom {
+  width: 1200px;
+  padding: 0 70px;
+  margin: 50px 0 0 0;
+  box-sizing: border-box;
+}
+.news .view {
+  position: absolute;
+  right: 85px;
+  top: 40px;
+  color: #666;
+}
+.news .view:hover {
+  color: #010066;
+}
+.newsroom a {
+  display: block;
+  background: #fff;
+  width: 480px;
+  height: 260px;
+  float: left;
+  padding: 10px;
+  position: relative;
+  box-shadow: 5px 5px 50px 10px rgba(0, 0, 0, 0.1);
+}
+.newsroom a img {
+  transition: all 0.1s ease-in-out;
+}
+.newsroom a:hover img {
+  display: block;
+  background: #fff;
+  transform: scale(1.04);
+  float: left;
+  margin-top: 30px;
+  padding-top: 10px;
+  position: relative;
+}
+
+.newsroom .newsCon1 {
+  margin-right: 50px;
+}
+.newsroom .newsCon1:hover {
+  margin-right: 50px;
+  box-shadow: 5px 5px 50px 10px rgba(0, 0, 0, 0.1);
+}
+.newsroom img {
+  margin-right: 20px;
+  font-weight: 700;
+  padding: 40px 10px 0 10px;
+  float: left;
+}
+.newsroom dt {
+  font-size: 1.5em;
+  margin: 50px 0 10px 0;
+}
+.newsroom dd {
+  margin-bottom: 10px;
+  padding-right: 15px;
+}
+.news h3 {
+  font-size: 3em;
+  text-align: center;
+  padding-top: 30px;
+}
+.news span {
+  display: block;
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+}
+/* 인재채용 영역 */
+.recruit {
+  clear: both;
+  margin: 100px 0;
+  color: #fff;
+  width: 1200px;
+  height: 255px;
+  position: relative;
+  overflow: hidden;
+  background: #010066;
+}
+
+.recruit h3 {
+  font-size: 2em;
+  padding: 0 0 10px 30px;
+  position: absolute;
+  z-index: 20;
+  left: 30px;
+  top: 50px;
+}
+.recruit img {
+  transition: all 0.5s ease-in-out;
+  float: left;
+  margin-left: -100px;
+}
+.recruit:hover img {
+  transform: scale(1.1);
+}
+.recruit p {
+  margin: 0 0 10px 30px;
+  position: absolute;
+  z-index: 20;
+  left: 30px;
+  top: 120px;
+}
+.recruit a {
+  text-align: center;
+  margin-left: 30px;
+  position: absolute;
+  left: 30px;
+  bottom: 40px;
+}

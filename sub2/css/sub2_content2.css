@@ -1,0 +1,51 @@
+/* 본문컨텐츠 영역 */
+.contentArea {
+}
+.contentArea .certificateBox {
+  background: #f6f6f6;
+  width: 1200px;
+  height: 600px;
+  overflow: hidden;
+}
+.contentArea .textBox {
+  width: 300px;
+  height: 600px;
+  float: left;
+  padding: 40px 30px 0 30px;
+}
+.contentArea .textBox dt {
+  font-size: 2.75em;
+  margin: 50px 0;
+}
+.contentArea .textBox dd {
+  text-align: justify;
+  font-size: 1.5em;
+  line-height: 36px;
+}
+.contentArea .imgBox {
+  float: left;
+  padding-top: 40px;
+}
+.contentArea img {
+  margin-right: 60px;
+}
+.quality {
+  margin: 150px 0 200px 0;
+}
+.quality dt {
+  font-size: 2.75em;
+  padding-bottom: 50px;
+}
+.quality dd {
+  font-size: 1.5em;
+  padding: 30px 0;
+}
+.quality span {
+  display: block;
+  border-bottom: 1px solid #333;
+  width: 1200px;
+}
+.quality .thick {
+  border-bottom: 3px solid #333;
+  width: 1200px;
+}

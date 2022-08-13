@@ -1,0 +1,68 @@
+/* 회사소개 본문 영역 */
+
+#content .introduction .leftBox {
+  position: relative;
+  float: left;
+}
+#content .introduction .rightBox {
+  overflow: hidden;
+  height: 550px;
+  background: #f7f7f7;
+  padding: 0 50px;
+}
+#content .introduction img {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#content .introduction .background {
+  width: 620px;
+  height: 350px;
+  background: rgb(7, 11, 106);
+  margin-top: 200px;
+}
+.introduction .rightBox dt {
+  font-size: 1.8em;
+  font-weight: 700;
+  margin-top: 80px;
+  
+}
+#content .introduction dd {
+  font-size: 1.125em;
+  padding-top: 40px;
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+.information {
+  clear: both;
+  overflow: hidden;
+  padding: 80px 0 160px 0;
+}
+.information .infoBox {
+  float: left;
+}
+.information h4 {
+  font-size: 1.25em;
+  margin-bottom: 30px;
+}
+.information .infoBox h4 {
+  margin: 30px 0 30px 150px;
+  font-size: 2.5em;
+}
+.information .infoBox table {
+  margin-left: 150px;
+}
+
+.information th {
+  text-align: left;
+}
+.information td {
+  padding: 4px 0 4px 50px;
+}
+.information img {
+  display: block;
+  float: right;
+}

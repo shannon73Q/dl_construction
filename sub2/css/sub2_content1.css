@@ -1,0 +1,97 @@
+/* 본문컨텐츠 영역 */
+.contentArea {
+}
+.contentArea .susCir {
+  width: 1200px;
+  height: 400px;
+  margin-bottom: 100px;
+}
+.contentArea .susCir > div {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  float: left;
+  box-sizing: border-box;
+  position: relative;
+  opacity: 0.85;
+  text-align: center;
+  color: #fff;
+  font-size: 3em;
+  padding: 100px;
+}
+.contentArea .susCir > div::after {
+  font-size: 0.7em;
+  opacity: 0.6;
+}
+.contentArea .susCir .eco {
+  left: 100px;
+  top: 0;
+  /* background: #039; */
+  background: #080b6a;
+}
+.contentArea .susCir .eco::after {
+  content: "Environment";
+}
+.contentArea .susCir .coex {
+  /* background: #36c; */
+  background: orange;
+}
+.contentArea .susCir .coex::after {
+  content: "Coexistence";
+}
+.contentArea .susCir .safety {
+  left: -100px;
+  top: 0;
+  background: #999;
+}
+.contentArea .susCir .safety::after {
+  content: "Safety";
+}
+.contentArea .contentArea .certificateBox {
+  background: #f6f6f6;
+  width: 1200px;
+  height: 600px;
+  overflow: hidden;
+}
+
+.contentArea .textBox {
+  width: 300px;
+  height: 600px;
+  float: left;
+  padding: 40px 30px 0 30px;
+}
+.contentArea .textBox dt {
+  font-size: 2.75em;
+  margin: 50px 0;
+}
+.contentArea .textBox dd {
+  text-align: justify;
+  font-size: 1.5em;
+  line-height: 36px;
+}
+.contentArea .imgBox {
+  float: left;
+  padding-top: 40px;
+}
+
+.contentArea img {
+  margin-right: 60px;
+}
+
+.sustainability {
+  margin: 150px 0 200px 0;
+}
+.sustainability dt {
+  font-size: 2.75em;
+  padding-bottom: 50px;
+}
+.sustainability dt::after {
+  display: block;
+  border-bottom: red 1px solid;
+  width: 1200px;
+  height: 1px;
+}
+.sustainability dd {
+  font-size: 1.5em;
+  padding: 30px 0;
+}

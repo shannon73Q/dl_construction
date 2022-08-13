@@ -1,0 +1,320 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+/* CSS Reset */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+address {
+  font-style: normal;
+}
+a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+}
+img {
+  border: 0;
+  vertical-align: top;
+}
+.hidden,
+#skipNav {
+  display: block;
+  position: absolute;
+  left: -1000%;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  color: #fff;
+}
+#skipNav {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  z-index: 60;
+}
+#skipNav a {
+  display: block;
+  height: 1px;
+  margin-bottom: -1px;
+  font-size: 1.2em;
+  overflow: hidden;
+  text-align: center;
+}
+#skipNav a:hover,
+#skipNav a:focus,
+#skipNav a:active {
+  height: auto;
+  padding: 10px 0;
+  background: #f2f2f2;
+}
+
+.wrap {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* font-family: 'Noto Sans KR', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
+
+/* header 공통영역 */
+#headerArea {
+  position: fixed;
+  width: 100%;
+  z-index: 50;
+}
+
+#headerArea .headerInner {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+#headerArea .logo {
+  width: 247px;
+  margin: 50px auto 20px;
+}
+#headerArea .logo a {
+  display: block;
+  width: 247px;
+  height: 43px;
+  background: url(../images/header_footer_logo.png);
+  text-indent: -999px;
+  overflow: hidden;
+}
+
+#headerArea #gnb {
+  font-weight: 700;
+  font-size: 1.25em;
+  padding-top: 3px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+#gnb .menu {
+  padding: 25px 70px 50px 50px;
+  text-align: center;
+}
+#gnb a {
+  color: #fff;
+  font-size: 1em;
+}
+
+#headerArea #gnb > ul {
+}
+#headerArea #gnb > ul > li {
+  margin-right: 5px;
+  margin-bottom: 30px;
+  float: left;
+}
+
+#header .logo a {
+  display: block;
+  width: 250px;
+  height: 46px;
+}
+
+.topMenu {
+  position: absolute;
+  right: 120px;
+  top: 80px;
+  overflow: hidden;
+}
+.topMenu a {
+  color: #fff;
+  font-size: 0.875em;
+  float: left;
+}
+.topMenu li {
+  float: right;
+  margin-right: 10px;
+}
+
+/* footer 공통영역 */
+#footerArea {
+  background: rgb(3, 11, 95);
+  height: 250px;
+  width: 100%;
+}
+
+#footerArea .footerInner {
+  width: 1200px;
+  margin: 0 auto;
+  background: rgb(3, 11, 95);
+  color: #fff;
+  position: relative;
+}
+
+#footerArea a {
+  color: #fff;
+}
+
+#footerArea .footLink {
+  float: left;
+}
+
+.footerInfo {
+  color: #fff;
+}
+
+.footLink .fnb {
+  margin: 30px 0 0 30px;
+  font-size: 1em;
+}
+
+.footLink p {
+  margin: 10px 30px 20px 30px;
+  font-size: 1em;
+}
+
+.footerLogo {
+  margin: 30px 0 0 30px;
+}
+
+address {
+  color: #fff;
+  float: left;
+  display: block;
+  margin: 100px 0 0 50px;
+  font-size: 1em;
+}
+
+#footerArea .sns {
+  width: 200px;
+  position: absolute;
+  right: 0;
+  top: 30px;
+}
+#footerArea .sns ul {
+  overflow: hidden;
+}
+#footerArea .sns li {
+  float: left;
+  margin-left: 15px;
+}
+#footerArea .sns a {
+  font-size: 2em;
+  transition: all 0.5s;
+}
+#footerArea .sns a:hover {
+  color: #ccc;
+}
+
+#footerArea .family {
+  font-size: 1.2em;
+  width: 200px;
+  position: absolute;
+  right: 0;
+  top: 100px;
+  text-align: center;
+}
