@@ -1,27 +1,31 @@
 /*CEO인사 본문 영역  */
-#content .contentArea{overflow: hidden; 
-    margin-bottom: 200px;
+#content .contentArea {
+  overflow: hidden;
+  margin-bottom: 200px;
 }
 
-#content .contentArea img{
-    float: left; 
-    display: block;
-    margin-right: 50px;
+#content .contentArea img {
+  float: left;
+  display: block;
+  margin-right: 50px;
 }
 
-#content .textBox{
-    padding-right: 50px;}
+#content .textBox {
+  padding-right: 50px;
+}
 
-#content .textBox dt{
-    font-size: 1.875em;
-    line-height: 2em; 
-    text-align: justify;
-    margin: 50px 0 30px 0;}
-#content .textBox dd{
-    font-size: 1.125em;
-    line-height: 2.25em; 
-    text-align: justify;}
-#content .textBox dd:nth-of-type(4){
-    text-align: right;
-    margin-top: 15px;
+#content .textBox dt {
+  font-size: 1.875em;
+  line-height: 2em;
+  text-align: justify;
+  margin: 50px 0 30px 0;
+}
+#content .textBox dd {
+  font-size: 1.125em;
+  line-height: 2.25em;
+  text-align: justify;
+}
+#content .textBox dd:nth-of-type(4) {
+  text-align: right;
+  margin-top: 15px;
 }

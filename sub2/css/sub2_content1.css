@@ -47,37 +47,6 @@
 .contentArea .susCir .safety::after {
   content: "Safety";
 }
-.contentArea .contentArea .certificateBox {
-  background: #f6f6f6;
-  width: 1200px;
-  height: 600px;
-  overflow: hidden;
-}
-
-.contentArea .textBox {
-  width: 300px;
-  height: 600px;
-  float: left;
-  padding: 40px 30px 0 30px;
-}
-.contentArea .textBox dt {
-  font-size: 2.75em;
-  margin: 50px 0;
-}
-.contentArea .textBox dd {
-  text-align: justify;
-  font-size: 1.5em;
-  line-height: 36px;
-}
-.contentArea .imgBox {
-  float: left;
-  padding-top: 40px;
-}
-
-.contentArea img {
-  margin-right: 60px;
-}
-
 .sustainability {
   margin: 150px 0 200px 0;
 }
@@ -94,4 +63,39 @@
 .sustainability dd {
   font-size: 1.5em;
   padding: 30px 0;
+}
+
+.contentArea .certificateBox {
+  background: #f6f6f6;
+  width: 1200px;
+  height: 800px;
+  overflow: hidden;
+  margin-bottom: 200px;
+}
+
+.contentArea .textBox {
+  /* width: 300px;
+  height: 600px; */
+  padding: 40px 30px 0 30px;
+}
+.contentArea .textBox dt {
+  font-size: 2.75em;
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 500;
+}
+.contentArea .textBox dd {
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 36px;
+}
+.contentArea .imgBox {
+  padding-top: 40px;
+}
+
+.contentArea img:nth-of-type(1) {
+  margin-left: 200px;
+}
+.contentArea img:nth-of-type(2) {
+  margin-left: 100px;
 }

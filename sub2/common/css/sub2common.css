@@ -29,6 +29,7 @@
   width: 1123px;
   margin: 0 auto;
   overflow: hidden;
+  box-sizing: border-box;
 }
 .subNav ul li {
   float: left;
@@ -81,4 +82,3 @@
   display: block;
   text-align: center;
 }
-

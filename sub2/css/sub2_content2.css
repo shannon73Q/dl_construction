@@ -4,13 +4,12 @@
 .contentArea .certificateBox {
   background: #f6f6f6;
   width: 1200px;
-  height: 600px;
+  height: 850px;
   overflow: hidden;
 }
 .contentArea .textBox {
-  width: 300px;
-  height: 600px;
-  float: left;
+  width: 1200px;
+  text-align: center;
   padding: 40px 30px 0 30px;
 }
 .contentArea .textBox dt {
@@ -18,16 +17,20 @@
   margin: 50px 0;
 }
 .contentArea .textBox dd {
-  text-align: justify;
+  text-align: center;
   font-size: 1.5em;
-  line-height: 36px;
+  line-height: 1.5em;
 }
+
 .contentArea .imgBox {
-  float: left;
   padding-top: 40px;
 }
-.contentArea img {
-  margin-right: 60px;
+
+.contentArea img:nth-of-type(1) {
+  margin-left: 200px;
+}
+.contentArea img:nth-of-type(2) {
+  margin-left: 100px;
 }
 .quality {
   margin: 150px 0 200px 0;
@@ -39,13 +42,4 @@
 .quality dd {
   font-size: 1.5em;
   padding: 30px 0;
-}
-.quality span {
-  display: block;
-  border-bottom: 1px solid #333;
-  width: 1200px;
-}
-.quality .thick {
-  border-bottom: 3px solid #333;
-  width: 1200px;
 }

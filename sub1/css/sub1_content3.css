@@ -21,7 +21,6 @@
   padding: 20px 0;
   background: #fff;
   color: #333;
-  padding-bottom: 10px;
   transition: all 0.5s;
 }
 .contentArea .historyNav li a:hover {
@@ -35,18 +34,18 @@
 }
 
 /* 연혁 영역 */
-.history{
+.history {
   color: rgb(7, 11, 106);
 }
-.history dl{padding-top: 20px;}
+.history dl {
+  padding-top: 20px;
+}
 .history li {
   opacity: 0.5;
   transition: all 0.5s ease-out;
-
 }
 .history li:hover {
   opacity: 1;
-
 }
 .history dl {
   overflow: hidden;

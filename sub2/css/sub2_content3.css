@@ -1,0 +1,79 @@
+.ethic {
+  margin-bottom: 200px;
+}
+.ethic .img {
+  width: 256px;
+  height: 256px;
+  display: block;
+  margin: 0 auto;
+}
+.tab {
+  width: 1000px;
+  margin: 30px auto;
+  overflow: hidden;
+  margin-bottom: 70px;
+}
+.tab li {
+  float: left;
+  width: 50%;
+  text-align: center;
+  font-size: 1.5em;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+.tab li a {
+  display: block;
+  padding: 20px 0;
+  background: #fff;
+  color: #333;
+  transition: all 0.5s;
+}
+.tab li a:hover {
+  background: orange;
+  color: #fff;
+}
+.tab li .current {
+  background: orange;
+  color: #fff;
+  font-weight: 700;
+}
+
+#charter h3,
+#implement h3 {
+  font-size: 1.8em;
+  font-weight: 500px;
+  margin: 30px 0 30px 0;
+}
+#implement h3 {
+  margin-top: 50px;
+}
+#charter ul,
+#implement p,
+#implement ul {
+  font-size: 1.4em;
+  line-height: 2.5em;
+  text-align: justify;
+}
+#implement {
+  margin-bottom: 100px;
+}
+.imgBox {
+  padding-top: 80px;
+  width: 1200px;
+  height: 700px;
+  background: #f6f6f6;
+}
+.ethic .textBox {
+  text-align: center;
+  font-size: 1.6em;
+  margin-bottom: 50px;
+}
+
+.imgBox img:nth-of-type(1) {
+  margin-left: 200px;
+}
+.imgBox img:nth-of-type(2) {
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
