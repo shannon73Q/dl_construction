@@ -48,15 +48,19 @@
 #implement h3 {
   margin-top: 50px;
 }
-#charter ul,
-#implement p,
-#implement ul {
-  font-size: 1.4em;
-  line-height: 2.5em;
-  text-align: justify;
+#implement p {
+  margin-bottom: 50px;
 }
-#implement {
+#charter ul,
+#implement ul {
   margin-bottom: 100px;
+}
+#charter li,
+#implement p,
+#implement li {
+  font-size: 1.5em;
+  text-align: justify;
+  line-height: 3em;
 }
 .imgBox {
   padding-top: 80px;

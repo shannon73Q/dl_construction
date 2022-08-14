@@ -1,0 +1,70 @@
+/* 본문컨텐츠 영역 */
+.contentArea {
+}
+.contentArea span {
+  font-size: 2em;
+  text-align: center;
+  display: block;
+  margin-bottom: 50px;
+  color: orange;
+}
+
+.contentArea p {
+  font-size: 1.7em;
+  text-align: center;
+  margin-bottom: 50px;
+}
+/* .contentArea li {
+  transition: all 0.3s ease-out;
+} */
+/* .contentArea li:hover {
+} */
+
+.contentArea img {
+  width: 1200px;
+  height: 800px;
+  display: block;
+  margin-bottom: 200px;
+}
+.contentArea .arrow {
+  position: relative;
+  font-size: 10em;
+  left: 50%;
+  z-index: 50;
+  opacity: 0;
+  transition: all 0.5s ease-out;
+}
+.contentArea .leftArrow {
+  position: absolute;
+  margin-left: -580px;
+  color: #fff;
+  margin-top: 25%;
+}
+.contentArea .rightArrow {
+  position: absolute;
+  margin-left: 500px;
+  color: #fff;
+  margin-top: 25%;
+}
+.contentArea .arrow:hover {
+  opacity: 1;
+}
+.contentArea li {
+  position: relative;
+}
+
+.contentArea li dl {
+  font-weight: 500;
+  position: absolute;
+  left: 20%;
+  top: 40%;
+  color: #fff;
+  font-size: 2.7em;
+}
+/* .wrap #content .contentArea .slide {
+  color: rgba(255, 255, 255, 0);
+  transition: all 0.5s ease-out;
+}
+.contentArea .slide:hover {
+  color: rgba(255, 255, 255, 1);
+} */
