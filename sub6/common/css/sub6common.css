@@ -1,0 +1,82 @@
+.main {
+  width: 2000px;
+  height: 500px;
+  position: relative;
+  left: 50%;
+  top: 0;
+  margin-left: -1000px;
+}
+.main img {
+  /* filter: brightness(70%); */
+}
+.main h3 {
+  font-size: 3em;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 250px;
+  margin-left: -81px;
+  font-weight: 400;
+  text-align: center;
+  font-size: 2.75em;
+}
+
+.subNav {
+  border-bottom: 1px solid #ccc;
+}
+.subNav ul {
+  width: 1123px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.subNav ul li {
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+.subNav ul li a {
+  display: block;
+  padding: 20px 0;
+  background: #fff;
+  font-size: 1.2em;
+  color: #333;
+  transition: all 0.5s;
+}
+.subNav ul li a:hover {
+  background: rgb(7, 11, 106);
+  color: #fff;
+}
+.subNav ul li .current {
+  background: rgb(7, 11, 106);
+  color: #fff;
+  font-weight: 700;
+}
+.subNav ul li:nth-of-type(2) {
+  border-left: #ccc 1px solid;
+  border-right: #ccc 1px solid;
+}
+#content {
+  width: 1200px;
+  margin: 0 auto;
+}
+#content .titleArea {
+  position: relative;
+}
+
+#content .lineMap {
+  margin: 30px 0 30px 950px;
+  color: #999;
+}
+#content .titleArea h2 {
+  font-size: 3.125em;
+  font-weight: 700;
+  text-align: center;
+  margin: 50px 0 100px 0;
+}
+
+.subTitle {
+  margin-bottom: 150px;
+  font-size: 2em;
+  display: block;
+  text-align: center;
+}
